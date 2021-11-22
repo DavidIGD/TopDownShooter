@@ -330,3 +330,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 207.651706 seconds.
+  path: Assets/Script/Firing.cs
+  artifactKey: Guid(9c7412ae7d9864244b98da61a7889ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Firing.cs using Guid(9c7412ae7d9864244b98da61a7889ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e03d621e259e1108216d32ba9d3fd12') in 0.024501 seconds 
+  Import took 0.029424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.763706 seconds.
+  path: Assets/Script/Bullet.cs
+  artifactKey: Guid(400b53f342da83a42b2ddd9d1ad245f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Bullet.cs using Guid(400b53f342da83a42b2ddd9d1ad245f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f84d7b5d9875d661acc84e4480466f') in 0.009788 seconds 
+  Import took 0.014904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.726419 seconds.
+  path: Assets/ArmoredSoldiers/PNG/Aircrafts/Aircraft2
+  artifactKey: Guid(e9db1dd4cf4367d4a917d957bae4110b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArmoredSoldiers/PNG/Aircrafts/Aircraft2 using Guid(e9db1dd4cf4367d4a917d957bae4110b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027f7e547af00da7e7cc85b950ebb2cf') in 0.010154 seconds 
+  Import took 0.015794 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
