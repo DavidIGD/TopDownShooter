@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 854691020460581159}
   - component: {fileID: 854691020460581152}
   - component: {fileID: 854691020460581156}
+  - component: {fileID: 8355709499892026498}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Alien
@@ -227,3 +228,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6343484, y: 0.76673937}
   m_EdgeRadius: 0
+--- !u!114 &8355709499892026498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854691020460581153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f21174e6202cdb46abb0be97055b886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 3
