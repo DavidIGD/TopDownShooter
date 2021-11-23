@@ -16,7 +16,7 @@ public class Alien1Heatlh : MonoBehaviour
     {
 
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)//bullets can damage aliens health and destroy them if health is less than 1
     {
         if (collision.gameObject.name == "Bullet(Clone)")
         {

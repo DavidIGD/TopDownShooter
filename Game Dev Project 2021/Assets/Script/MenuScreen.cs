@@ -7,16 +7,16 @@ public class MenuScreen : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//loads the next scene
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit();//quits the application
     }
 
     public void Return()
     {
-        SceneManager.LoadScene("Start Menu");
+        SceneManager.LoadScene("Start Menu");//returns to the start menu
     }
 }

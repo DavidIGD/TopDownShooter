@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f; //calculates the angle between the mouse and player using the Mathf.Atan2 function which uses vectors to find the angle from the origin also converts the answer from radians to degrees and takes away 90 degrees otherwise the charatcer would be facing the wrong direction
         playerRigidbody.rotation = angle; //rotates the player to face the mouse
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)//aliens damage player and if health drops below 1 the scene is reset
     {
         if(collision.gameObject.tag == "Alien")
         {
