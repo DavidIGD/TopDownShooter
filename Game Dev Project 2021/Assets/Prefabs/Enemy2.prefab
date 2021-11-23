@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 6526369824124160369}
   - component: {fileID: 6526369824124160370}
   - component: {fileID: 1175629509592705991}
+  - component: {fileID: 4902331129187507162}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: Alien
@@ -180,7 +181,7 @@ MonoBehaviour:
     visualizeSensitivity: 0
   targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
-  rotationSpeed: 180
+  rotationSpeed: 250
   slowdownDistance: 0.6
   pickNextWaypointDist: 1
   endReachedDistance: 0.2
@@ -241,3 +242,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 7
+--- !u!50 &4902331129187507162
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6526369824124160371}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

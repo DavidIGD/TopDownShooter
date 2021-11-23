@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D playerRigidbody;
     public BoxCollider2D playerCollider;
     public Camera cam1;
-    public int Health = 10;
+    public int PlayerHealth = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,8 +39,8 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.tag == "Alien")
         {
-            Health -= 1;
-            if(Health < 1)
+            PlayerHealth -= 1;
+            if(PlayerHealth < 1)
             {
                 Destroy(gameObject);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

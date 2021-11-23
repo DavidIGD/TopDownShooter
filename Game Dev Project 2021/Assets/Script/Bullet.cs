@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)//bullets will play an exploision animation when they collide with something
     {
         GameObject effect = Instantiate(explosion, transform.position, Quaternion.identity);
-        Destroy(effect, 1f);
+        Destroy(effect, 2f);
         Destroy(gameObject);
     }
 }
