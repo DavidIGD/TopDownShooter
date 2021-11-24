@@ -23,6 +23,7 @@ public class Firing : MonoBehaviour
     }
     void Shoot()
     {
+        FindObjectOfType<AudioManager>().PlaySound("fireBullet"); //plays firing sound
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);//sets the rotation of the bullet to match the player
         Rigidbody2D rigidbody = bullet.GetComponent<Rigidbody2D>();
         rigidbody.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse); //applies a force to the bullet which gives it velocity

@@ -17,10 +17,11 @@ public class Medkit : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision) //destroys medkit and plays sound when player collides
     {
         if(collision.gameObject.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().PlaySound("medkit");
             Destroy(gameObject);
         }
     }
