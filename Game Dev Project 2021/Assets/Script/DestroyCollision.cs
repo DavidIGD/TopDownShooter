@@ -8,7 +8,7 @@ public class DestroyCollision : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        boxesEnemy = GameObject.Find("BoxLmao");
+        boxesEnemy = GameObject.Find("BoxLmao"); //finds the box object
     }
 
     // Update is called once per frame
@@ -16,7 +16,7 @@ public class DestroyCollision : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision) //destroys the boxes when player enter a room
     {
         if(collision.gameObject.tag == "Player")
         {
