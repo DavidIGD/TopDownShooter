@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/David/Documents/GitHub/TopDownShooter/Escape The Alien Assualt
+C:/Users/David/Documents/GitHub/TopDownShooter/Escape The Alien Assault
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65458
-Successfully changed project path to: C:/Users/David/Documents/GitHub/TopDownShooter/Escape The Alien Assualt
-C:/Users/David/Documents/GitHub/TopDownShooter/Escape The Alien Assualt
+60370
+Successfully changed project path to: C:/Users/David/Documents/GitHub/TopDownShooter/Escape The Alien Assault
+C:/Users/David/Documents/GitHub/TopDownShooter/Escape The Alien Assault
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/David/Documents/GitHub/TopDownShooter/Escape The Alien Assualt/Assets
+[Subsystems] Discovering subsystems at path C:/Users/David/Documents/GitHub/TopDownShooter/Escape The Alien Assault/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001786 seconds.
+Registered in 0.001305 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.570 seconds
+- Completed reload, in  0.434 seconds
 Domain Reload Profiling:
-	ReloadAssembly (570ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (434ms)
+		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (449ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (342ms)
+			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (185ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (141ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004481 seconds.
+Registered in 0.004079 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.020 seconds
+- Completed reload, in  1.277 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2021ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (1278ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1773ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1130ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (1060ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (708ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (873ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (576ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2754 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 118.4 MB.
 System memory in use after: 118.6 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3189.
-Total: 3.943900 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.078100 ms MarkObjects: 3.510400 ms  DeleteObjects: 0.109300 ms)
+Total: 3.087900 ms (FindLiveObjects: 0.192700 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.749100 ms  DeleteObjects: 0.089600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,33 +132,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ArmoredSoldiers/PSD/PowerArmor.psd
-  artifactKey: Guid(87565b995efc4f94daa635721bafb769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ArmoredSoldiers/PSD/PowerArmor.psd using Guid(87565b995efc4f94daa635721bafb769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bb56bd427bac3745685116c6bfe7f8') in 0.162673 seconds 
-  Import took 0.169026 seconds .
+  path: Assets/Scenes/Start Menu.unity
+  artifactKey: Guid(0343c0595e4bb954d87d1e45156227a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Menu.unity using Guid(0343c0595e4bb954d87d1e45156227a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672fc57ff6ee2b8b88e6f58dbe034f9d') in 0.018113 seconds 
+  Import took 0.022349 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 33.075339 seconds.
-  path: Assets/Images/Materials
-  artifactKey: Guid(e0958b7de3965374eb4a19e84fd2ec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Materials using Guid(e0958b7de3965374eb4a19e84fd2ec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecdaf381523e0216f743fe28ec564a7') in 0.010341 seconds 
-  Import took 0.015832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.480512 seconds.
-  path: Assets/Images/Materials/medkit.mat
-  artifactKey: Guid(82066a642bd910545b3b75f4d384459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Materials/medkit.mat using Guid(82066a642bd910545b3b75f4d384459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09b71eca63afbc02cf62796186b42d1') in 0.071991 seconds 
-  Import took 0.077063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.895521 seconds.
-  path: Assets/Scenes/Credits.unity
-  artifactKey: Guid(ad7c8f8e9e1ebcd48a4a32c7143446fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Credits.unity using Guid(ad7c8f8e9e1ebcd48a4a32c7143446fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9511bb9bc17950d0f4f28934c220f1') in 0.011027 seconds 
-  Import took 0.017050 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

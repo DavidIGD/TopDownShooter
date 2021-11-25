@@ -174,7 +174,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 82066a642bd910545b3b75f4d384459c, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10250,7 +10250,7 @@ MonoBehaviour:
   playerRigidbody: {fileID: 362834607}
   playerCollider: {fileID: 362834608}
   playerHealth: 0
-  maxHealth: 10
+  maxHealth: 6
   healthBar: {fileID: 920856056}
   cam1: {fileID: 519420031}
   flashColor: {r: 0, g: 1, b: 0.040850878, a: 0.5882353}
@@ -16499,7 +16499,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1484173728
 GameObject:
