@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal"); //gets the imputs required to move the player
+        movement.x = Input.GetAxisRaw("Horizontal"); //gets the inputs required to move the player
         movement.y = Input.GetAxisRaw("Vertical");
 
         mousePos = cam1.ScreenToWorldPoint(Input.mousePosition); //gets the position of the mouse in the game world
